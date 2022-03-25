@@ -1,0 +1,56 @@
+<BASE OFFSET>
+BaseAddress = 0x7FF695490000
+UWorld = 0xC446238
+GObject = 0xC26E608
+Free = 0xDA0410
+GetNameByIndex = 0xE04400
+BoneMatrix = 0x15612FC
+LineOfSight = 0x89BCAE4
+ProjectWorldToScreen = 0x85486C4
+---------------------------------------------------------------
+constexpr auto WorldLevels                                         == 0x148;
+constexpr auto WorldPersistentLevel                                == 0x30;
+constexpr auto GameInstanceLocalPlayers                            == 0x38;
+constexpr auto WorldOwningGameInstance                             == 0x190;
+constexpr auto ControllerControlRotation                           == 0x310;
+constexpr auto PlayerControllerPlayerCameraManager                 == 0x350;
+constexpr auto PlayerControllerAcknowledgedPawn                    == 0x338;
+constexpr auto PawnPlayerState                                     == 0x2B8;
+constexpr auto ActorRootComponent                                  == 0x190;
+constexpr auto CharacterMesh                                       == 0x318;
+constexpr auto SceneComponentRelativeLocation                      == 0x138;
+constexpr auto SceneComponentComponentVelocity                     == 0x180;
+constexpr auto StaticMeshComponentStaticMesh                       == 0x588;
+constexpr auto StaticMeshComponentComponentToWorld                 == 0x0;
+constexpr auto SkinnedMeshComponentCachedWorldSpaceBounds          == 0x748;
+constexpr auto FortPlayerStateAthenaTeamIndex                      == 0x1018;
+constexpr auto FortPickupPrimaryPickupItemEntry                    == 0x320;
+constexpr auto FortItemDefinitionDisplayName                       == 0x90;
+constexpr auto FortItemDefinitionTier                              == 0x74;
+constexpr auto FortItemEntryItemDefinition                         == 0x18;
+constexpr auto FortPawnCurrentWeapon                               == 0x7B0;
+constexpr auto FortWeaponWeaponData                                == 0x400;
+constexpr auto FortWeaponItemDefinitionWeaponStatHandle            == 0x998;
+constexpr auto FortProjectileAthenaFireStartLoc                    == 0xA18;
+constexpr auto FortBaseWeaponStatsReloadTime                       == 0xE8;
+constexpr auto FortBaseWeaponStatsReloadScale                      == 0xEC;
+constexpr auto FortBaseWeaponStatsChargeDownTime                   == 0x118;
+constexpr auto FortRangedWeaponStatsRecoilHoriz                    == 0x1FC;
+constexpr auto FortRangedWeaponStatsRecoilVert                     == 0x1EC;
+constexpr auto FortRangedWeaponStatsRecoilDownsightsMultiplier     == 0x218;
+constexpr auto FortPlayerPawnAthenaReviveFromDBNOTime              == 0x3CE0;
+constexpr auto FortPlayerPawnAthenabADSWhileNotOnGround            == 0x4585;
+constexpr auto FortWeaponWeaponReloadMontage                       == 0x13D0;
+constexpr auto FortWeaponReloadAnimation                           == 0x13A0;
+constexpr auto FortPlayerPawnAthenaReviveFromDBNOTime              == 0x3CE0;
+constexpr auto ActorCustomTimeDilation                             == 0xD4;
+constexpr auto FortWeaponLastFireTimeVerified                      == 0xA8C;
+constexpr auto FortWeaponLastFireTime                              == 0xA88;
+constexpr auto FortPawnbIsDBNO                                     == 0x712;
+constexpr auto FortPawnbIsDying                                    == 0x6A0;
+constexpr auto PawnRemoteViewPitch                                 == 0x2AA;
+constexpr auto FortWeaponLastFireAbilityTime                       == 0x1360;
+constexpr auto SceneComponentRelativeScale3D                       == 0x168;
+constexpr auto SceneComponentRelativeRotation                      == 0x150;
+constexpr auto SceneComponentComponentVelocity                     == 0x180;
+constexpr auto SceneComponentbVisible                              == 0x198;
